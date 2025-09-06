@@ -1,0 +1,16 @@
+{
+  "name": "tui-music-bot",
+  "version": "1.3.0",
+  "description": "Prefix-based Discord music bot with bundled Lavalink via Docker. All responses use embeds (no emojis).",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "shoukaku": "^4.0.3"
+  }
+}
